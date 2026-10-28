@@ -1,0 +1,19 @@
+package tn.esprit.autoloc.service;
+
+import tn.esprit.autoloc.domain.Paiement;
+
+import java.util.List;
+
+public interface iPaiementServices {
+
+    Paiement createPaiement(Paiement paiement);
+
+    Paiement getPaiementById(Long id);
+
+    Paiement updatePaiement(Paiement paiement);
+
+    void deletePaiement(Long id);
+
+    List<Paiement> getAllPaiements();
+
+}
